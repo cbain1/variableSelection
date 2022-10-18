@@ -1,13 +1,31 @@
 Package: VariableSelection
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A Package for the Paper Tutorial on Supervised Machine Learning Variable Selection Methods for the Psychological Sciences Using R"
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Catherine Bain
+Maintainer: Catherine Bain <cbain1@ou.edu>
+Description: This package was created to accompany the paper "A Tutorial on Supervised Machine Learning Variable Selection Methods for the Psychological Sciences Using R".
+    In this package you will find the data, required packages, and other materials needed to follow along with the tutorial paper. 
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 2.10)
+Suggests: 
+    glmnet,
+    dplyr,
+    multiROC,
+    caret,
+    pROC,
+    randomForest,
+    aricode,
+    GA,
+    tidyverse,
+    funModeling,
+    mclust,
+    penalizedSVM,
+    e1071,
+    Rcpp,
+    Boruta,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
